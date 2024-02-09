@@ -2,15 +2,16 @@
 
 ## Dependencies
 
-```
+```bash
 apt-get install --no-install-recommends musl-dev make
 wget https://musl.cc/aarch64-linux-musl-cross.tgz
-# unpack somewhere, then add bin/ to your $PATH
 ```
+
+Unpack the `musl` cross compiling tool chain somewhere, then add `bin/` to your `$PATH`.
 
 ## Compile
 
-```
+```bash
 cd src
 make
 ```
